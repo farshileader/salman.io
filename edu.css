@@ -1,0 +1,47 @@
+/* education.css */
+
+/* Set margin for the section */
+#education {
+    margin-top: 20px;
+}
+
+/* Style the heading */
+#education h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the table */
+#education table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style table header */
+#education th {
+    background-color: #1097c0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table cells */
+#education td {
+    border: 1px solid #5a4fee;
+    padding: 10px;
+}
+
+/* Hover effect on table rows */
+#education tbody tr:hover {
+    background-color: #8a8be7;
+}
+
+/* Adjust table cell alignment on small screens */
+@media (max-width: 576px) {
+    #education th, #education td {
+        padding: 5px;
+        font-size: 14px;
+    }
+}

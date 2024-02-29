@@ -1,0 +1,44 @@
+/* footer.css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+.emetro {
+    color: #d400ff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.name {
+    color: #eeff00;
+    font-family: "Arial", sans-serif;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.9);
+}

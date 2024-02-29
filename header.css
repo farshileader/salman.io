@@ -1,0 +1,47 @@
+/* header.css */
+
+header {
+    background: linear-gradient(to right, #000000, purple, brown, yellow, green, pink);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 140px;
+    height: 140px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #eb88ff;
+}
